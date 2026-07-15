@@ -8,11 +8,19 @@ packages:
   gitUsername: ArtiKhareNew
   gitBranch: main
 - name: MultiplyPublicService
+  version: "4.0"
   gitServerName: srcCtrl_shared_bitbucket_Arti
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artikhare
   gitBranch: master
 - name: OpenWeatherClient
+  version: "1.0"
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
+- name: AddPublicService
+  version: "7.0"
+  gitServerName: srcCtrl_gitlab_Arti
+  gitUrl: https://gitlab.com/ArtiKhareGitlab
+  gitUsername: ArtiKhareGitlab
+  gitBranch: master
